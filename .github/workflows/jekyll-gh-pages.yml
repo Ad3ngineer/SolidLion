@@ -35,8 +35,7 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: /Users/GopolangM/Library/CloudStorage/GoogleDrive-gopolangmakokwe@gmail.com/My Drive/0. Writing Projects/1. Books/Study Guides/Solidity with AI
-          destination: /Users/GopolangM/Library/CloudStorage/GoogleDrive-gopolangmakokwe@gmail.com/My Drive/0. Writing Projects/1. Books/Study Guides/Solidity with AI
-    /site
+          destination: .github/workflows/jekyll-gh-pages.yml/site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
